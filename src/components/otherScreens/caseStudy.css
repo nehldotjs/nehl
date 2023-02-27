@@ -154,16 +154,6 @@
     border-left: 1px solid #8f8f8f;
 }
 
-.projectLink {
-    display: flex;
-    margin: auto;
-}
-
-.projectLink .link {
-    color: white;
-    display: flex;
-}
-
 .projectLink .link .linksIcon {
     height: 20px;
     width: auto;
@@ -206,19 +196,21 @@
 .case-image {
     display: flex;
     height: auto;
-    width: 120px;
+    width: auto;
     margin: auto;
     justify-content: center;
     align-items: center;
 }
-.case-image img{
+
+.case-image img {
     object-fit: contain;
     margin: auto;
     display: flex;
     height: auto;
-    width: 100%;
+    width: 90%;
 }
-.case-mockupimage{
+
+.case-mockupimage {
     display: flex;
     width: 100%;
     height: auto;
@@ -240,4 +232,39 @@
     margin: auto;
     height: 100%;
     width: 100%;
+}
+
+.liveLink {
+    display: flex;
+    color: white;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.liveLink .projectLink {
+    display: flex;
+    margin: auto;
+    height: auto;
+    width: auto;
+}
+
+.liveLink .url {
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.liveLink .url .linksIcon {
+    position: relative;
+    display: flex;
+    height: 50px;
+    width: auto;
+    color: white;
 }

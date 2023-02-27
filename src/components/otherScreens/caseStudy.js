@@ -260,14 +260,6 @@ function CaseStudy() {
               <h5>Mock Design</h5>
               <div className="projectOverviewWrapper proj">
                 <div className="case-mockupimage">
-                  {/* {work?.mockupdesign.map((x, index) => {
-                    return (
-                      <div className="mockupimage" key={index}>
-                        <img src={x} className="mockup" alt="design" />
-                      </div>
-                    );
-                  })} */}
-
                   <div className="mockupimage">
                     <img
                       src={work?.mockupdesign}
@@ -280,31 +272,22 @@ function CaseStudy() {
             </div>
           </>
         )}
-
-        {work?.figmaDesignLink && (
-          <div
-            data-aos="fade-right"
-            data-aos-offset="200"
-            data-aos-easing="ease-in-out"
-            data-aos-once="false"
-            className="projectLink projectBorder">
-            <Link to={work?.figmaDesignLink} className="link">
-              <FaFigma className="linksIcon" />
-            </Link>
-          </div>
-        )}
-        {work?.liveLink && (
-          <div
-            data-aos="fade-right"
-            data-aos-offset="200"
-            data-aos-easing="ease-in-out"
-            data-aos-once="false"
-            className="projectLink projectBorder">
-            <Link to={work?.liveLink}>
-              <FaLink className="linksIcon" />
-            </Link>
-          </div>
-        )}
+        <div className="liveLink">
+          {work?.figmaDesignLink && (
+            <div className="projectLink projectBorder">
+              <Link to={work?.figmaDesignLink} className="url">
+                <FaFigma className="linksIcon" />
+              </Link>
+            </div>
+          )}
+          {work?.liveLink && (
+            <div className="projectLink projectBorder">
+              <Link to={work?.liveLink} className="url">
+                <FaLink className="linksIcon" />
+              </Link>
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );
