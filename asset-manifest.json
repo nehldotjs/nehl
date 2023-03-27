@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/nehl/static/css/main.45c9d961.css",
-    "main.js": "/nehl/static/js/main.465ce09c.js",
+    "main.css": "/nehl/static/css/main.01863d64.css",
+    "main.js": "/nehl/static/js/main.62be4af8.js",
     "static/js/787.39f10b48.chunk.js": "/nehl/static/js/787.39f10b48.chunk.js",
     "static/media/delish.png": "/nehl/static/media/delish.5ad9ff1a354ba4584f7a.png",
     "static/media/shoppaPage.png": "/nehl/static/media/shoppaPage.9d7e285a1e94c06686b4.png",
@@ -20,12 +20,12 @@
     "static/media/shoppaWireframe.png": "/nehl/static/media/shoppaWireframe.b4e3e5e1013ffe5523b2.png",
     "static/media/w1.png": "/nehl/static/media/w1.0740271f9b782ed9e66f.png",
     "index.html": "/nehl/index.html",
-    "main.45c9d961.css.map": "/nehl/static/css/main.45c9d961.css.map",
-    "main.465ce09c.js.map": "/nehl/static/js/main.465ce09c.js.map",
+    "main.01863d64.css.map": "/nehl/static/css/main.01863d64.css.map",
+    "main.62be4af8.js.map": "/nehl/static/js/main.62be4af8.js.map",
     "787.39f10b48.chunk.js.map": "/nehl/static/js/787.39f10b48.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.45c9d961.css",
-    "static/js/main.465ce09c.js"
+    "static/css/main.01863d64.css",
+    "static/js/main.62be4af8.js"
   ]
 }
