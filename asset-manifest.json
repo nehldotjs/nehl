@@ -1,12 +1,10 @@
 {
   "files": {
     "main.css": "/nehl/static/css/main.c39c3420.css",
-    "main.js": "/nehl/static/js/main.1cfbff56.js",
+    "main.js": "/nehl/static/js/main.a039a036.js",
     "static/js/787.39f10b48.chunk.js": "/nehl/static/js/787.39f10b48.chunk.js",
-    "static/media/delish.png": "/nehl/static/media/delish.5ad9ff1a354ba4584f7a.png",
     "static/media/shoppaPage.png": "/nehl/static/media/shoppaPage.9d7e285a1e94c06686b4.png",
     "static/media/shoppHeader.png": "/nehl/static/media/shoppHeader.cee95647f3fc60314916.png",
-    "static/media/header.png": "/nehl/static/media/header.1fc6ae671beeca0dea8a.png",
     "static/media/img1.png": "/nehl/static/media/img1.b92dcb1bc5bd57fec99f.png",
     "static/media/shHeader.png": "/nehl/static/media/shHeader.28a380bcc80bc3544cf8.png",
     "static/media/shcontactform.png": "/nehl/static/media/shcontactform.1b0e282ba2b219480b86.png",
@@ -23,11 +21,11 @@
     "static/media/w1.png": "/nehl/static/media/w1.0740271f9b782ed9e66f.png",
     "index.html": "/nehl/index.html",
     "main.c39c3420.css.map": "/nehl/static/css/main.c39c3420.css.map",
-    "main.1cfbff56.js.map": "/nehl/static/js/main.1cfbff56.js.map",
+    "main.a039a036.js.map": "/nehl/static/js/main.a039a036.js.map",
     "787.39f10b48.chunk.js.map": "/nehl/static/js/787.39f10b48.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c39c3420.css",
-    "static/js/main.1cfbff56.js"
+    "static/js/main.a039a036.js"
   ]
 }
